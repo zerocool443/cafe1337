@@ -1,11 +1,11 @@
 <?php
  
 //mysql user details
-mysql_connect('localhost', 'root', 'sky');
+mysql_connect('localhost', 'username_here', 'password_here');
 mysql_select_db('test');
 
 //admin username
-$admin='akashrajputsky';
+$admin='admin_username';
 
 //Optional Configuration 
 $url_home = 'index.php';
